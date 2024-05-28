@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body class="font-primary">
+    <main class="w-full">
+    <section class="w-full h-[100vh]  bg-header  bg-cover bg-no-repeat bg-center bg-color1 bg-blend-multiply bg-opacity-60 " >
+        <section class="w-full flex flex-wrap justify-center ">
+            <header 
+            class="w-[85%]  xl:w-[73%]  container hidden lg:flex justify-between h-[60px]  items-center py-[45px] border-b-[1px] border-white border-opacity-40">
+            <figure class="w-[140px]">
+               <img src="img/logo-light.png" alt="" class="w-[100%]">
+            </figure>
+            <nav class="h-[100%] md:w-[70%]">
+                <ul class="h-[100%] flex items-center gap-8 justify-end">
+                    <li class="list-none  "><a class="decoration-none text-white hover:text-color3 transition-all duration-500"
+                            href="">Главная</a></li>
+                    <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                            href="">О нас</a></li>
+                    <li class="list-none "><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                            href="">Туры</a></li>
+                    <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                            href="">Место назначения</a></li>
+                    <li class="list-none "><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                            href="">Блог</a></li>
+                    <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                            href="">Галлерея</a></li>
+                    <li class="list-none"><a class="decoration-none text-white  hover:text-color3 transition-all duration-500"
+                            href="">Котакты</a></li>
+                </ul>
+            </nav>
+        </header>
+
+ <!-- header for mobile -->
+ <header
+ class="w-[95%] sm:w-[70%] md:w-[80%] container flex h-[60px] justify-between  items-center  lg:hidden  py-[45px] relative border-b-[1px] border-white border-opacity-40 ">
+ <figure class="w-[140px]">
+    <img src="img/logo-light.png" alt="" class="w-[100%]">
+ </figure>
+ <div class=" w-1/2 h-full flex justify-end items-center ">
+     <i class="bi bi-list text-3xl text-white cursor-pointer ham-menu-icon"></i>
+ </div>
+ <nav class="menu hidden h-[400px] w-full absolute bg-white left-0 top-[90px]   z-30 ">
+     <ul class="h-full w-full flex flex-col  justify-center ms-6">
+         <li class="list-none my-3"><a
+                 class="decoration-none text-color2 flex hover:text-color4  transition-all duration-600"
+                 href="">Главная</a></li>
+         <li class="list-none my-3"><a
+                 class="decoration-none text-color2 flex  hover:text-color4  transition-all duration-600"
+                 href="">О нас</a></li>
+         <li class="list-none my-3"><a
+                 class="decoration-none text-color2 flex  hover:text-color4 transition-all duration-600"
+                 href="">Туры</a></li>
+         <li class="list-none my-3"><a
+                 class="decoration-none text-color2 flex  hover:text-color4 transition-all duration-600"
+                 href="">Место назначения</a></li>
+         <li class="list-none my-3"><a
+                 class="decoration-none text-color2 flex   hover:text-color4  transition-all duration-600"
+                 href="">Блог</a></li>
+         <li class="list-none my-3"><a
+                 class="decoration-none text-color2 flex  hover:text-color4  transition-all duration-600"
+                 href="">Галлерея</a></li>
+         <li class="list-none my-3"><a
+                 class="decoration-none text-color2 flex   hover:text-color4 transition-all duration-600"
+                 href="">Контакты</a></li>
+     </ul>
+ </nav>
+</header>
+<!-- end header mobile  -->
+
+    </section>
+   <section class="w-full flex justify-center mt-[180px]">
+    <div class="w-[700px] md:w-[900px] container h-auto  ">
+        <p class="w-full text-center uppercase text-white tracking-widest [word-spacing:8px] mb-4">ПУТЕШЕСТВУЙ С НАМИ</p>
+        <h1 class="w-full text-center text-white text-5xl md:text-7xl font-secondary uppercase tracking-widest">ИССЛЕДУЙТЕ МИР С<span class="travol">TRAVOL</span></h1>
+    </div>
+   </section>
+   <section class="w-full justify-center mt-[80px] hidden lg:flex relative">
+        <div class=" bg-white bg-opacity-40 container absolute w-[1000px] xl:w-[1200px] h-[100px] flex justify-center items-center backdrop-blur-lg">
+                <div class="w-[950px] xl:w-[1100px]  container h-auto absolute m-[10px]  ">
+                        <form action="" class="flex font-primary"> 
+                                <input type="text" placeholder="Искать тур" class="py-[15px] ps-5 w-[25%] outline-none focus:outline-none">
+                                <select name="" id="" class="w-[25%] py-[15px] bg-white  ps-5" id="target">
+                                        <option value="dest" selected   class="bg-color1 text-white">Место назначения</option>
+                                        <option value="it" class="text-stone-600" >Минск</option>
+                                        <option value="fr" class="text-stone-600">Брест</option>
+                                        <option value="mal" class="text-stone-600" >Гродно</option>
+                                        <option value="gr" class="text-stone-600" >Витебск</option>
+                                        <option value="ca" class="text-stone-600" >Гомель</option>
+                                        <option value="du" class="text-stone-600"> Могилёв</option>
+                                </select>
+                                <select name="" id="" class="w-[25%] py-[15px] bg-white  ps-5" id="target">
+                                        <option value="du" selected   class="bg-color1 text-white">Продолжительность</option>
+                                        <option value="it" class="text-stone-600" >1 Тур День</option>
+                                        <option value="fr" class="text-stone-600">2-4 Тур Дня</option>
+                                        <option value="mal" class="text-stone-600" >5-7 Тур Дня</option>
+                                        <option value="gr" class="text-stone-600" >7+ Тур Дней</option>
+                                </select> 
+                               <a href="" role="button" class="bg-color1 w-[25%] text-white flex items-center justify-center text-[18px] hover:bg-color3 transition-all duration-500" ><i class="bi bi-search me-2"></i>Искать</a>
+                        </form>
+                </div>
+        </div>
+   </section>
+    </section>
+    <section class="w-full flex lg:hidden justify-center  bg-color5">
+      <div class="w-full container flex justify-center py-10">
+        <form action="" class="w-[80%] " >
+                <input type="text" placeholder="where to?" class="w-full py-5 ps-5"><br>
+                <select name="" id="" class="w-full py-5 bg-white  ps-5" >
+                        <option value="dest" selected   class="bg-color1 text-white">Destination</option>
+                        <option value="it" class="text-stone-600" >Italy</option>
+                        <option value="fr" class="text-stone-600">France</option>
+                        <option value="mal" class="text-stone-600" >Maldives</option>
+                        <option value="gr" class="text-stone-600" >Greece</option>
+                        <option value="ca" class="text-stone-600" >Canada</option>
+                        <option value="du" class="text-stone-600"> Dubai</option>
+                </select><br>
+                <select name="" id="" class="w-full py-5 bg-white  ps-5" >
+                        <option value="du" selected   class="bg-color1 text-white">Deuration</option>
+                        <option value="it" class="text-stone-600" >1 Day Tour</option>
+                        <option value="fr" class="text-stone-600">2-4 Days Tour</option>
+                        <option value="mal" class="text-stone-600" >5-7 Days Tour</option>
+                        <option value="gr" class="text-stone-600" >7+ Days Tour</option>
+                </select><br>
+                <a href="" role="button" class="bg-color1 py-5 w-full text-white flex items-center justify-center text-[18px] hover:bg-color3 transition-all duration-500" ><i class="bi bi-search me-2"></i>Find Now</a>
+        </form>
+      </div>
+    </section>
+    <section class="w-full flex justify-center bg-color5 h-auto">
+        <div class="w-full container flex justify-between flex-wrap px-0 2xl:px-36 h-auto py-16 ">
+                <div class="w-full lg:w-[50%]  bg-color px-5 ">
+                        <p class="text-color4 uppercase">ЛУЧШЕЕ ТУРИСТИЧЕСКОЕ АГЕНСТВО</p>
+                        <p class="text-color3 text-5xl font-bold uppercase font-secondary my-4" >ОТКРОЙ <span class="text-color1"> МИР</span> С НАШИМ ГИДОМ</p>
+                        <p class="text-color6">Вы можете выбрать любую страну с хорошим туризмом. Belarus Express следит за актуальными предложениями, тщательно подбирая лучшие варианты для вашего незабываемого отдыха, учитывая ваши предпочтения и бюджет.</p>
+                        <p class="text-color6 my-4">Ваш проводник в мир увлекательных путешествий!</p>
+                        <div class="flex items-center"> <i class="bi bi-check text-white bg-color4  rounded-[50%] px-2 py-1 me-3"></i> <p class="text-color6">20 Лет Опыта</p></div>
+                        <div class="flex items-center my-4"> <i class="bi bi-check text-white bg-color4  rounded-[50%] px-2 py-1 me-3"></i> <p class="text-color6">50+ Направлений Тура</p></div>
+                        <div class="flex items-center"><i class="bi bi-telephone-forward text-color1 text-2xl me-3"></i><div><p class="text-color6 ">Для Информации</p><p class="text-color6 text-2xl">+375292303825</p></div></div>
+                </div>
+                <div class=" w-full lg:w-[50%]   flex flex-col justify-center items-center bg-color5 h-auto pb-8 lg:pb-0 mt-10 lg:mt-0 ">
+                        <figure class="w-[70%] h-[500px] relative">
+                                <div class="w-[100%] h-[100%] bg-color4 absolute left-8 top-8"></div>
+                                <img src="img/about.jpeg" alt="" class="w-[100%] h-[100%] absolute z-10 object-cover hover:scale-[.95] transition-all duration-500">
+                        </figure>
+                </div>
+        </div>
+    </section>
+    <section class="w-full flex justify-center bg-color7 py-8 ">
+        <div class="w-full container 2xl:px-36">
+                <div>
+                        <p class="text-color4 uppercase px-5">Выберите своё место</p>
+                        <p class="text-5xl font-secondary text-color3 px-5">Популярные <span class="text-color1">Туры</span></p>
+                        <div class="flex flex-wrap md:justify-between gap-10 px-6 xl:px-0 py-8 lg:px-3 ">
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000 ">
+                                        <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                                                <p class="text-3xl text-color3 capitalize font-secondary">ВИТЕБСК</p>
+                                                <p class="text-color1 mb-4">$220 / на человека</p>
+                                                <p class="text-color6">Витебск – один из самых древних и красивых городов Беларуси, расположенный на реке Западная Двина. Этот город известен своими культурными и историческими достопримечательностями. Витебск является родиной известного художника Марка Шагала, и здесь можно посетить дом-музей, посвященный его жизни и творчеству. </p>
+                                                <div class="flex flex-wrap my-4">
+                                                        <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">5 Дней</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">Витебск</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">12+</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2">9.8 Рейтинг</p></div>
+                                                </div>
+                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Детали тура</a>
+                                        </div>
+                                        <img src="img/maldives1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+                                        <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">БЕЛАРУСЬ</p>
+                                        <figcaption class="absolute text-white bottom-8 right-10 fig">
+                                                <p class="capitalize font-secondary text-3xl">Витебск</p>
+                                                <p class="text-right">$220 / на человека</p>
+                                        </figcaption>
+                                </figure>
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000 ">
+                                        <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                                                <p class="text-3xl text-color3 capitalize font-secondary">МИНСК</p>
+                                                <p class="text-color1 mb-4">$250 / на человека</p>
+                                                <p class="text-color6">Минск – столица Беларуси, сердце страны и её крупнейший город, расположенный на живописных берегах реки Свислочь. Этот современный и динамичный город славится своими широкими проспектами, зелеными парками и значимыми историческими памятниками. В Минске находится множество музеев, театров и галерей, среди которых выделяются Национальный художественный музей, Большой театр оперы и балета и Музей Великой Отечественной войны.</p>
+                                                <div class="flex flex-wrap my-4">
+                                                        <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">6 Дней</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">Минск</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">10+</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2"> 9.5 Рейтинг</p></div>
+                                                </div>
+                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Детали Тура</a>
+                                        </div>
+                                        <img src="img/2.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+                                        <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">БЕЛАРУСЬ</p>
+                                        <figcaption class="absolute text-white bottom-8 right-10 fig">
+                                                <p class="capitalize font-secondary text-3xl">Минск</p>
+                                                <p class="text-right">$250 / на человека</p>
+                                        </figcaption>
+                                </figure>
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000">
+                                        <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                                                <p class="text-3xl text-color3 capitalize font-secondary">ГРОДНО</p>
+                                                <p class="text-color1 mb-4">$110 / на человека</p>
+                                                <p class="text-color6">Гродно — один из старейших и красивейших городов Беларуси, расположенный на берегах реки Неман. Город славится своим богатым историческим наследием и архитектурными памятниками. В Гродно можно увидеть великолепные католические костёлы, православные церкви и синагогу, которые придают городу уникальный колорит.</p>
+                                                <div class="flex flex-wrap my-4">
+                                                        <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">4 Дня</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">Гродно</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">6+</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2">9.5 Рейтинг</p></div>
+                                                </div>
+                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Детали Тура</a>
+                                        </div>
+                                        <img src="img/france1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+                                        <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-1 top-12 rotate-[-90deg] ">БЕЛАРУСЬ</p>
+                                        <figcaption class="absolute text-white bottom-8 right-10 fig">
+                                                <p class="capitalize font-secondary text-3xl">Гродно</p>
+                                                <p class="text-right">$110 / на человека</p>
+                                        </figcaption>
+                                </figure>
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000 ">
+                                        <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                                                <p class="text-3xl text-color3 capitalize font-secondary">ГОМЕЛЬ</p>
+                                                <p class="text-color1 mb-4">$90 / на человека</p>
+                                                <p class="text-color6">Гомель — второй по величине город Беларуси, расположенный на живописных берегах реки Сож. Гомель славится своими прекрасными парками и садами, в которых можно наслаждаться природой и архитектурными памятниками. Одной из главных достопримечательностей является Гомельский дворцово-парковый ансамбль, включающий в себя старинный дворец Румянцевых и Паскевичей, собор Петра и Павла, а также множество скульптур и фонтанов. </p>
+                                                <div class="flex flex-wrap my-4">
+                                                        <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">2 Дня</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">Гомель</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">12+</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2">9.3 Рейтинг</p></div>
+                                                </div>
+                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Детали Тура</a>
+                                        </div>
+                                        <img src="img/greece1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+                                        <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-[-15px] top-12 rotate-[-90deg] ">БЕЛАРУСЬ</p>
+                                        <figcaption class="absolute text-white bottom-8 right-10 fig">
+                                                <p class="capitalize font-secondary text-3xl">Гомель</p>
+                                                <p class="text-right">$90 / на человека</p>
+                                        </figcaption>
+                                </figure>
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000 ">
+                                        <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                                                <p class="text-3xl text-color3 capitalize font-secondary">МОГИЛЁВ</p>
+                                                <p class="text-color1 mb-4">$85 / на человека</p>
+                                                <p class="text-color6">Могилёв — один из древнейших и красивейших городов Беларуси, расположенный на берегу реки Днепр. Этот город привлекает своими историческими и культурными достопримечательностями. В центре города находится великолепная ратуша, восстановленная в своем первоначальном виде, и площадь Славы, где можно увидеть множество памятников и скульптур.</p>
+                                                <div class="flex flex-wrap my-4">
+                                                        <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">3 Дня</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">Могилёв</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">10+</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2"> 9.3 Рейтинг</p></div>
+                                                </div>
+                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Детали Тура</a>
+                                        </div>
+                                        <img src="img/canada1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+                                        <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-[-15px] top-12 rotate-[-90deg] ">БЕЛАРУСЬ</p>
+                                        <figcaption class="absolute text-white bottom-8 right-10 fig">
+                                                <p class="capitalize font-secondary text-3xl">Могилёв</p>
+                                                <p class="text-right">$85 / на человека</p>
+                                        </figcaption>
+                                </figure>
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative photo transition-all duration-1000 ">
+                                        <div class="w-[100%] h-[100%] bottom-photo absolute bg-white flex flex-col justify-center px-5">
+                                                <p class="text-3xl text-color3 capitalize font-secondary">БРЕСТ</p>
+                                                <p class="text-color1 mb-4">$100 / На человека</p>
+                                                <p class="text-color6">Брест — город с богатой историей, расположенный на юго-западе Беларуси, на границе с Польшей. Брест известен своей героической крепостью, которая стала символом мужества и сопротивления во время Второй мировой войны. Посетители могут посетить Мемориальный комплекс "Брестская крепость-герой" и узнать больше о трагических событиях, произошедших здесь.</p>
+                                                <div class="flex flex-wrap my-4">
+                                                        <div class="w-[50%] flex"><i class="bi bi-clock text-color4"></i><p class="text-color6 ms-2">3 Дня</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-geo-alt text-color4"></i><p class="text-color6 ms-2">Брест</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-person text-color4"></i></i><p class="text-color6 ms-2">10+</p></div>
+                                                        <div class="w-[50%] flex"><i class="bi bi-emoji-smile text-color4"></i></i><p class="text-color6 ms-2">9.8 Рейтинг</p></div>
+                                                </div>
+                                                <a href="" class="underline decoration-color1 text-color6 flex mb-2">Детали Тура</a>
+                                        </div>
+                                        <img src="img/44-1.jpg" alt="" class="w-[100%] h-[100%] object-cover brightness-75 absolute">
+                                        <p class="absolute uppercase text-white bg-color3 px-4 py-1 right-[-15px] top-12 rotate-[-90deg] ">БЕЛАРУСЬ</p>
+                                        <figcaption class="absolute text-white bottom-8 right-10 fig">
+                                                <p class="capitalize font-secondary text-3xl">Брест</p>
+                                                <p class="text-right">$100 / на человека</p>
+                                        </figcaption>
+                                </figure>
+                        </div>
+                </div>
+        </div>
+    </section>
+    <section class="w-full bg-sea py-32 relative bg-cover bg-fixed flex justify-center after:content-[''] after:absolute after:w-[100%] after:h-[100%] after:bg-black after:bg-opacity-50 after:top-0">
+        <div class="w-full container 2xl:px-36 flex flex-wrap relative z-10 justify-center md:justify-between">
+                <div class="w-full md:w-[20%] my-5 ">
+                        <figure class="flex flex-col items-center  group">
+                                <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-airplane text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-airplane text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">600</p><p class="text-xl">Трансфер</p></figcaption>
+                        </figure>
+                </div>
+                <div class="w-full md:w-[20%] my-5">
+                        <figure class="flex flex-col items-center  group">
+                                <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-house-heart text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-house-heart text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">250</p><p class="text-xl">Удивительный Тур</p></figcaption>
+                        </figure>
+                </div>
+                <div class="w-full md:w-[20%] my-5">
+                        <figure class="flex flex-col items-center  group">
+                                <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-rocket text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-rocket text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">100</p><p class="text-xl">Захватывающий Тур</p></figcaption>
+                        </figure>
+                </div>
+                <div class="w-full md:w-[20%] my-5">
+                        <figure class="flex flex-col items-center  group">
+                                <div class="bg-white bg-opacity-50  rounded-[50%] p-5 flex items-center relative overflow-hidden outline outline-8  outline-offset-8 out  "><i class="bi bi-postage-heart text-5xl text-white absolute ms-[-100%] group-hover:ms-[0%] transition-all duration-300"></i><i class="bi bi-postage-heart text-5xl text-white  group-hover:ms-[200%] transition-all duration-300"></i></div>
+                                <figcaption class="text-center text-white font-secondary mt-10"><p class="text-3xl">100</p><p class="text-xl">Бронирование Отеля</p></figcaption>
+                        </figure>
+                </div>
+             
+        </div>
+    </section>
+    <section class="w-full flex justify-center bg-color7 lg:h-[800px]">
+        <div class="w-full container 2xl:px-36 py-16 bg-color7 ">
+                <p class="text-color4 uppercase px-5">ЛУЧШЕЕ НАПРАВЛЕНИЕ</p>
+                <p class="text-3xl sm:text-5xl font-secondary text-color1 px-5">ПУТЕШЕСТВИЕ <span class=" text-color3">ПО СТРАНАМ</span></p>
+                <div class="w-full flex lg:relative py-10 flex-wrap lg:px-3 xl:px-0 px-6">
+                        <figure class="w-full lg:w-[70%] lg:absolute">
+                                <img src="img/2.jpg" alt="" class="w-[100%]">
+                        </figure>
+                        <div class="w-full lg:w-[50%] lg:absolute lg:h-[400px] bg-map bg-no-repeat bg-center z-10 lg:right-0 xl:top-[170%] md:top-20 px-10 py-16 bg-white" >
+                                <p class="uppercase text-color1">СТРАНЫ ПУТЕШЕСТВИЯ</p>
+                                <p class="uppercase text-3xl font-secondary text-color3 pb-4">БЕЛАРУСЬ</p>
+                                <p class="text-color6">Беларусь – это страна с богатым культурным наследием, живописными пейзажами и множеством интересных туристических маршрутов. Вы можете насладиться разнообразием исторических достопримечательностей, национальных парков и уютных городов.</p>
+                                <div class=" flex flex-wrap py-4 ">
+                                        <div class="flex w-[33%]"><i class="bi bi-geo-alt text-color1"></i><p class="text-color6">Минск</p></div>
+                                        <div class="flex w-[33%]"><i class="bi bi-geo-alt text-color1"></i><p class="text-color6">Брест</p></div>
+                                        <div class="flex w-[33%]"><i class="bi bi-geo-alt text-color1"></i><p class="text-color6">Гродно</p></div>
+                                        <div class="flex w-[33%]"><i class="bi bi-geo-alt text-color1"></i><p class="text-color6">Витебск</p></div>
+                                        <div class="flex w-[33%]"><i class="bi bi-geo-alt text-color1"></i><p class="text-color6">Гомель</p></div>
+                                        <div class="flex w-[33%]"><i class="bi bi-geo-alt text-color1"></i><p class="text-color6">Могилёв</p></div>
+                                        
+                                </div>
+                                <a href="" class="capitalize flex py-4 relative  text-color1 before:content-[''] before:h-[1px] before:absolute before:w-[100%] before:bg-color6 before:bg-opacity-50 before:top-0"><p>Просмотреть все места</p><i class="bi bi-arrow-right"></i></a>
+
+                        </div>
+                </div>
+        </div>
+    </section>
+    <section class="w-full bg-boat bg-cover bg-bottom bg-no-repeat h-[50vh] flex justify-center bg-color2 bg-blend-multiply bg-opacity-50">
+       <div class="w-full container flex justify-center items-center flex-col">
+        <p class="text-white font-secondary text-3xl 2xl:text-6xl">Почти Минск</p>
+        <div class="flex mt-5 gap-5">
+                <div class="flex items-center"><i class="bi bi-geo-alt text-white text-2xl me-2"></i><p class="text-white">Минск</p></div>
+                <div class="flex items-center"><i class="bi bi-clock text-white text-2xl me-2"></i><p class="text-white"> 4 Дня + 3 Ночи   </p></div>
+        </div>
+       </div>
+    </section>
+    <section class="w-full flex justify-center bg-color7 py-8 ">
+        <div class="w-full container 2xl:px-36">
+                <div>
+                        <p class="text-color4 uppercase px-5">САМЫЙ ПОПУЛЯРНЫЙ</p>
+                        <p class="text-5xl font-secondary text-color3 px-5">ПОПУЛЯРНОЕ <span class="text-color1">НАПРАВЛЕНИЕ</span></p>
+                        <div class="flex flex-wrap justify-center xl:justify-between gap-10 px-6 xl:px-0 py-8 lg:px-3 ">
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000 overflow-hidden group ">   
+                                        <img src="img/canada1-1.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000">
+                                        <p class="absolute uppercase text-white bg-color1 px-4 py-1 right-1 top-12 rotate-[-90deg] ">2 Тура</p>
+                                        <figcaption class="absolute text-white bottom-[20px] left-5  group-hover:bottom-[50px]  transition-all duration-700 w-full  ">
+                                               <div class="flex after:contetn-[''] after:h-[1px] after:bg-op-50 after:w-[20%] after:bg-white after:absolute after:bottom-[-8px] group-hover:after:w-[90%]  after:transition-all after:duration-1000" ><i class="bi bi-geo-alt text-2xl text-white me-2"></i> <p class="capitalize font-secondary text-3xl">Минск</p></div>
+                                               <div class="flex justify-between absolute  mt-5 w-full  ">
+                                                <p>2 Тур Пакета</p>
+                                                <a href="" class="flex  me-9 " >Исследовать<i class="bi bi-arrow-right"></i></a>
+                                            </div>
+                                                
+                                        </figcaption>
+                                </figure>
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000 overflow-hidden group ">   
+                                        <img src="img/maldives1-1.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000">
+                                        <p class="absolute uppercase text-white bg-color1 px-4 py-1 right-1 top-12 rotate-[-90deg] ">2 Тура</p>
+                                        <figcaption class="absolute text-white bottom-[20px] left-5  group-hover:bottom-[50px]  transition-all duration-700 w-full  ">
+                                               <div class="flex after:contetn-[''] after:h-[1px] after:bg-op-50 after:w-[20%] after:bg-white after:absolute after:bottom-[-8px] group-hover:after:w-[90%]  after:transition-all after:duration-1000" ><i class="bi bi-geo-alt text-2xl text-white me-2"></i> <p class="capitalize font-secondary text-3xl">Витебск</p></div>
+                                               <div class="flex justify-between absolute  mt-5 w-full  ">
+                                                <p>2 Тур Пакета</p>
+                                                <a href="" class="flex  me-9  " >Исследовать<i class="bi bi-arrow-right"></i></a>
+                                            </div>
+                                                
+                                        </figcaption>
+                                </figure>
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000 overflow-hidden group ">   
+                                        <img src="img/italy1.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000">
+                                        <p class="absolute uppercase text-white bg-color1 px-4 py-1 right-1 top-12 rotate-[-90deg] ">6 Тура</p>
+                                        <figcaption class="absolute text-white bottom-[20px] left-5  group-hover:bottom-[50px]  transition-all duration-700 w-full  ">
+                                               <div class="flex after:contetn-[''] after:h-[1px] after:bg-op-50 after:w-[20%] after:bg-white after:absolute after:bottom-[-8px] group-hover:after:w-[90%]  after:transition-all after:duration-1000" ><i class="bi bi-geo-alt text-2xl text-white me-2"></i> <p class="capitalize font-secondary text-3xl">Грондо</p></div>
+                                               <div class="flex justify-between absolute  mt-5 w-full  ">
+                                                <p>6 Тур Пакета</p>
+                                                <a href="" class="flex me-9 " >Исследовать<i class="bi bi-arrow-right"></i></a>
+                                            </div>
+                                                
+                                        </figcaption>
+                                </figure>
+                        </div>
+                </div>
+        </div>
+    </section>
+    <section class="w-full flex justify-center bg-color3 py-8 h-auto">
+        <div class="w-full container 2xl:px-36 h-auto">
+                <div>
+                        <p class="text-color4 uppercase px-5">ПУТЕШЕСТВЕННЫЙ БЛОГ</p>
+                        <p class="text-5xl font-secondary text-color4 px-5">ОПЫТ<span class="text-white"> ПУТЕШЕСТВИЙ</span></p>
+                        <div class="flex flex-wrap justify-center xl:justify-between gap-10 px-6 xl:px-0 py-8 lg:px-3 ">
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
+                                   <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative">     <img src="img/22.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
+                                        <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p>Aug</p><p class="font-bold">02</p></div>
+                                        <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-8 group-hover:bottom-10 transition-all duration-1000 ">
+                                                <p class="uppercase text-color4">ТУРЫ</p>
+                                                <p class="capitalize text-color3 font-secondary text-2xl">Самые популярные маршруты</p>
+                                        </figcaption>
+                                </figure>
+                                <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
+                                        <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative">     <img src="img/11.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
+                                             <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p>Aug</p><p class="font-bold">07</p></div>
+                                             <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-3 group-hover:bottom-10 transition-all duration-1000 ">
+                                                     <p class="uppercase text-color4">ПУТЕШЕСТВОВАТЬ</p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">Практическая информация для поездки в города Беларуси</p>
+                                             </figcaption>
+                                     </figure>
+                                     <figure class="w-full md:w-[45%] xl:w-[30%] h-[450px] relative  transition-all duration-1000  group mb-20   ">   
+                                        <div class="w-[100%] h-[100%] overflow-hidden group transition-all duration-1000 relative">     <img src="img/18-1.jpeg" alt="" class="w-[100%] h-[100%] object-cover group-hover:brightness-75 group-hover:scale-[1.2] absolute transition-all duration-1000"></div>
+                                             <div class="absolute uppercase text-white bg-color1 px-2 left-3 top-12 flex flex-col items-center "><p>Aug</p><p class="font-bold">02</p></div>
+                                             <figcaption class=" absolute h-[150px] w-[85%]  bg-white bottom-[-80px]  left-[8%] flex flex-col justify-center px-5 group-hover:bottom-10 transition-all duration-1000 ">
+                                                     <p class="uppercase text-color4">НАПРАВЛЕНИЯ</p>
+                                                     <p class="capitalize text-color3 font-secondary text-2xl">Советы по безупречному медовому месяцу</p>
+                                             </figcaption>
+                                     </figure>
+                        </div>
+                </div>
+        </div>
+    </section>
+    <section class="w-full flex justify-center bg-color7 overflow-hidden  ">
+        <div class="w-full container flex whitespace-nowrap overflow-hidden group  ">
+             <div class="flex  logos-slide animate-anime w-full flex-wrap whitespace-nowrap group-hover:pause  ">
+                <figure class="w-[25%] "><img src="img/1.png" alt="" w-[100%]></figure>
+                <figure class="w-[25%] "><img src="img/2.png" alt="" w-[100%]></figure>
+                <figure class="w-[25%]  "><img src="img/3.png" alt="" w-[100%]></figure>
+                <figure class="w-[25%]  "><img src="img/4.png" alt="" w-[100%]></figure>
+             </div>
+             <div class="flex  logos-slide  w-full flex-wrap  whitespace-nowrap ms-[-200%] animate-anime group-hover:pause ">
+                <figure class="w-[25%] "><img src="img/1.png" alt="" w-[100%]></figure>
+                <figure class="w-[25%] "><img src="img/2.png" alt="" w-[100%]></figure>
+                <figure class="w-[25%]  "><img src="img/3.png" alt="" w-[100%]></figure>
+                <figure class="w-[25%]  "><img src="img/4.png" alt="" w-[100%]></figure>
+             </div>
+               </div>
+    </section>
+    <section class="w-full flex justify-center h-auto  bg-color3">
+        <footer class="w-full container h-auto flex flex-col 2xl:px-36 ">
+                <div class="flex justify-center border items-center boder-1 border-color5 my-10 flex-wrap mx-6 ">
+                        <div class="w-full lg:w-[30%] flex  items-center py-2 lg:border-r-2 lg:border-r-color5 my-5 ps-8 lg:ps-0" >
+                                <i class="bi bi-telephone-outbound text-4xl me-4 text-white bg-color1 p-3"></i>
+                                <div class="w-full text-white"><p class="font-secondary">Позвонить</p><p>+375292303825</p></div>
+                        </div>
+                        <div class="w-full lg:w-[35%] flex items-center py-2 lg:border-r-2 lg:border-r-color5 my-5 ps-8" >
+                                <i class="bi-envelope-paper text-4xl me-4 text-white bg-color1 p-3"></i>
+                                <div class="w-full text-white"><p class="font-secondary">Написать</p><p>ferzkiyy@gmail.com</p></div>
+                        </div>
+                        <div class="w-full lg:w-[30%] flex items-center py-2 my-5 ps-8" >
+                                <i class="bi bi-map text-4xl me-4 text-white bg-color1 p-3 "></i>
+                                <div class="w-full text-white"><p class="font-secondary">Адрес</p><p>Калинковичи,Беларусь</p></div>
+                        </div>
+                </div>
+                <div class="flex  justify-between  my-10 flex-wrap  ">
+                        <div class="w-full md:w-[30%] flex flex-col py-2  my-5 px-6 " >
+                                <figure class="w-[80%]">
+                                        <img src="img/logo-light.png" alt="" class="w-[100%]">
+                                </figure>
+                                <p class="text-color6 my-5">Ваш проводник в мир увлекательных путешествий!</p>
+                                <ul class="flex  ">
+                                        <li class="me-5"><a href=""><i class="bi bi-instagram text-white bg-color1 p-3 rounded-[50%]"></i></a></li>
+                                        <li class="me-5"><a href=""><i class="bi bi-github text-white  bg-color1 p-3 rounded-[50%]"></i></a></li>
+                                        <li class="me-5"><a href=""><i class="bi bi-linkedin text-white  bg-color1 p-3 rounded-[50%]"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="w-full md:w-[30%] flex flex-col py-2  my-5 md:ps-20 px-6 " >
+                              <p class="font-secondary text-white text-xl xl:text-2xl">Быстрые Ссылки</p>
+                              <ul class="mt-7 px-6">
+                                <li class="my-2 list-disc marker:text-color1"><a href="" class="text-color6">О нас</a></li>
+                                <li class="list-disc marker:text-color1"><a href=""  class="text-color6">Туры</a></li>
+                                <li class="my-2 list-disc marker:text-color1"><a href=""  class="text-color6">Блог</a></li>
+                              </ul>
+                        </div>
+                        <div class="w-full md:w-[28%] flex flex-col  py-2 my-5 px-6 md:px-0 " >
+                              <p class="font-secondary text-2xl text-white ">Подписаться</p>
+                              <p class="text-color6 mt-5">Подпишитесь на наш ежемесячный блог, чтобы быть в курсе путешествий и туров.</p>
+                              <form action="" class="mt-5 flex w-full flex-wrap"><input type="email" placeholder="Email Address" class="px-2 py-5">
+                        <a href="" class="text-white bg-color4 py-5 px-3 flex mt-0 md:mt-2 lg:mt-0">Отправить</a></form>
+                        </div>
+                </div>
+                <p class="text-stone-300 text-left py-5  text-[14px] relative before:content-[''] before:h-[3px] before:w-[100%] before:bg-stone-400 before:absolute before:top-0 before:bg-opacity-50">©2024 Степан Заленский.</p>
+        </footer>
+    </section>
+    </main>
+</body>
+<script src="js/master.js"></script>
+</html>
